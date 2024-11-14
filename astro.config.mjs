@@ -4,7 +4,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-	base: '/',
+	base: '/sw-game-dice-roll-prototype/',
 	integrations: [
 		solid(),
 		tailwind(
