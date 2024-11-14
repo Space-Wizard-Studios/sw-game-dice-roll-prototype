@@ -20,7 +20,7 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         with:
-            path: game-prototype
+            path: .
             node-version: 22
             package-manager: npm
 
