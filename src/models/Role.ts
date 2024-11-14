@@ -1,6 +1,6 @@
 import type { Health, Speed } from "@models/Character";
 import { type DiceAction, DiceActions } from "@models/actions/DiceAction";
-import { type DiceCombo, DiceCombos } from "@models/actions/ComboAction";
+import { type DiceCombo, DiceCombos } from "@models/actions/DiceComboAction";
 
 export type Role = {
 	name: string;
