@@ -1,4 +1,4 @@
-import { Targets, type ActionTarget } from '@models/Target';
+import { Targets, type ActionTarget } from '@models/actions/Target';
 
 export type ActionColor = {
 	background: string;

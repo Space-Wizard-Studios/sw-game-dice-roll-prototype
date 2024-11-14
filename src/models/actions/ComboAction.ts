@@ -1,15 +1,15 @@
-import { DiceActions } from '@models/DiceAction';
-import type { DiceAction } from '@models/DiceAction';
+import { DiceActions } from '@models/actions/DiceAction';
+import type { DiceAction } from '@models/actions/DiceAction';
 
-type DiceActionType = 'chargedAttack' | 'heal' | 'magicBurst' | 'parry';
+type DiceComboType = 'chargedAttack' | 'heal' | 'magicBurst' | 'parry';
 
-export type DiceAction = {
+export type DiceCombo = {
 	name: string;
 	description: string;
 	requiredActions: DiceAction[];
 };
 
-export const DiceActions: Record<DiceActionType, DiceAction> = {
+export const DiceCombos: Record<DiceComboType, DiceCombo> = {
 	chargedAttack: {
 		name: 'Charged Attack',
 		description: 'Charge up an attack to deal massive damage.',
